@@ -59,6 +59,4 @@ int main( void )
   /* Clear all nodes at the end of nodes*/
    puts( "End of run." );
    freeList(&startPtr );
-   printList( startPtr );
-   printListReverse(startPtr);
 } // end main
