@@ -135,7 +135,7 @@ void printList(LLPtr currentPtr) {
    } else {
        puts("The list is:");
        while (currentPtr != NULL) {
-           printf("ID: %d, Name: %s --> ", currentPtr->id, currentPtr->name);
+           printf("ID: %d %s --> ", currentPtr->id, currentPtr->name);
            currentPtr = currentPtr->nextPtr;
        }
        printf("NULL\n");
@@ -152,7 +152,7 @@ void printListR(LLPtr currentPtr) {
    printListR(currentPtr->nextPtr);
 
    // After recursion, print the current node's data
-   printf("ID: %d, Name: %s --> ", currentPtr->id, currentPtr->name);
+   printf("ID: %d %s --> ", currentPtr->id, currentPtr->name);
 }
 
 // Function to print the list in reverse order, calling the recursive function
