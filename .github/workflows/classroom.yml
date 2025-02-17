@@ -48,7 +48,7 @@ jobs:
           3
         expected-output: |-
           111 meet -->123 mark -->NULL
-          123 mark -->111 meet --->NULL
+          123 mark -->111 meet -->NULL
         comparison-method: contains
         timeout: 10
         max-score: 10
