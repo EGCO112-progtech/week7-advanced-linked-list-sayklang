@@ -157,13 +157,15 @@ void printListR(LLPtr currentPtr) {
 
 // Function to print the list in reverse order, calling the recursive function
 void printListReverse(LLPtr head) {
-   if (isEmpty(head)) {
+   if  (isEmpty(head)) {
        puts("List is empty.\n");
        return;
-   }
+   }  
    printListR(head);
    printf("NULL");
 }
+
+
 
 
 
