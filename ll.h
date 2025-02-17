@@ -162,7 +162,7 @@ void printListReverse(LLPtr head) {
        return;
    }
    printListR(head);
-   printf("NULL\n");
+   printf("NULL");
 }
 
 
